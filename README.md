@@ -23,13 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot.png)
+![](./images/Screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/LG-Soria/NewHomepageMain)
-- Live Site URL: [Add live site URL here](https://lg-soria.github.io/NewHomepageMain/)
+- Solution URL: [Repo](https://github.com/LG-Soria/NewHomepageMain)
+- Live Site URL: [Site](https://lg-soria.github.io/NewHomepageMain/)
 
 
 ### Built with
