@@ -16,7 +16,7 @@ body {
 }
 
 /*MediaQuerys*/
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
   body {
     width: 375px;
     grid-template-rows: auto repeat(7, 1fr) auto;
@@ -169,7 +169,7 @@ img {
 }
 
 /*MediaQuerys*/
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
   header {
     position: relative;
     margin-top: 0;
@@ -312,7 +312,7 @@ section {
 }
 
 /*MEDIAQUERYS*/
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
   section {
     grid-column: 1/9;
     grid-row: 5/7;
@@ -383,7 +383,7 @@ footer {
   padding-right: 15px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
   footer {
     grid-row: 7/9;
     grid-column: 1/9;
