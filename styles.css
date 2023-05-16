@@ -7,8 +7,9 @@
 body {
   font-family: "Inter", sans-serif;
   margin: auto;
+  width: 90%;
 }
-@media screen and (min-width: 395px) {
+@media screen and (min-width: 1024px) {
   body {
     width: 80%;
   }
@@ -70,7 +71,7 @@ ul > li:hover {
   cursor: pointer;
 }
 
-@media screen and (min-width: 395px) {
+@media screen and (min-width: 1024px) {
   #boton {
     display: none;
   }
@@ -153,7 +154,7 @@ p > a:hover {
   cursor: pointer;
 }
 
-@media screen and (min-width: 395px) {
+@media screen and (min-width: 1024px) {
   main {
     display: grid;
     grid-template-columns: 70% 30%;
@@ -295,7 +296,7 @@ section {
   padding-right: 15px;
 }
 
-@media screen and (min-width: 395px) {
+@media screen and (min-width: 1024px) {
   section {
     margin: 0rem;
   }
