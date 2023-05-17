@@ -192,13 +192,21 @@
       </div>
     </footer>
     <script>
-      function abrir() {
-        document.getElementById("nav").classList.toggle("navAbierto");
-      }
+      
 
-      document.getElementById("boton").onclick = function () {
-        abrir();
-      };
+      const menuButton = document.getElementById("boton");
+      const nav =  document.getElementById("nav");
+      menuButton.addEventListener('click', function(){
+        nav.classList.add("navAbierto");
+
+        if(nav.classList.contains('navAbierto')){
+          nav.classList.remove('navAbierto');
+        } else{
+          nav.classList.add('navAbierto')
+        }
+      });
+
+
     </script>
   </body>
 </html>
